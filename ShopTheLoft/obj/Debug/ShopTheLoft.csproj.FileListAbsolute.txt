@@ -1,0 +1,5 @@
+C:\Users\Wendy\documents\visual studio 2012\Projects\ShopTheLoft\ShopTheLoft\bin\ShopTheLoft.dll
+C:\Users\Wendy\documents\visual studio 2012\Projects\ShopTheLoft\ShopTheLoft\bin\ShopTheLoft.pdb
+C:\Users\Wendy\documents\visual studio 2012\Projects\ShopTheLoft\ShopTheLoft\obj\Debug\ShopTheLoft.csprojResolveAssemblyReference.cache
+C:\Users\Wendy\documents\visual studio 2012\Projects\ShopTheLoft\ShopTheLoft\obj\Debug\ShopTheLoft.dll
+C:\Users\Wendy\documents\visual studio 2012\Projects\ShopTheLoft\ShopTheLoft\obj\Debug\ShopTheLoft.pdb

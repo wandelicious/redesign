@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{55DC4586-BC50-4F00-B70F-D9F6F1106885}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ShopTheLoft</RootNamespace>
+    <AssemblyName>ShopTheLoft</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\animate.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\main.css" />
+    <Content Include="css\prettyPhoto.css" />
+    <Content Include="css\price-range.css" />
+    <Content Include="css\responsive.css" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="images\404\404.png" />
+    <Content Include="images\blog\blog-one.jpg" />
+    <Content Include="images\blog\blog-three.jpg" />
+    <Content Include="images\blog\blog-two.jpg" />
+    <Content Include="images\blog\man-four.jpg" />
+    <Content Include="images\blog\man-one.jpg" />
+    <Content Include="images\blog\man-three.jpg" />
+    <Content Include="images\blog\man-two.jpg" />
+    <Content Include="images\blog\socials.png" />
+    <Content Include="images\cart\one.png" />
+    <Content Include="images\cart\three.png" />
+    <Content Include="images\cart\two.png" />
+    <Content Include="images\home\bg_border.png" />
+    <Content Include="images\home\gallery1.jpg" />
+    <Content Include="images\home\gallery2.jpg" />
+    <Content Include="images\home\gallery3.jpg" />
+    <Content Include="images\home\gallery4.jpg" />
+    <Content Include="images\home\girl1.jpg" />
+    <Content Include="images\home\girl2.jpg" />
+    <Content Include="images\home\girl3.jpg" />
+    <Content Include="images\home\iframe1.png" />
+    <Content Include="images\home\iframe2.png" />
+    <Content Include="images\home\iframe3.png" />
+    <Content Include="images\home\iframe4.png" />
+    <Content Include="images\home\logo.png" />
+    <Content Include="images\home\map.png" />
+    <Content Include="images\home\new.png" />
+    <Content Include="images\home\partner1.png" />
+    <Content Include="images\home\partner2.png" />
+    <Content Include="images\home\partner3.png" />
+    <Content Include="images\home\partner4.png" />
+    <Content Include="images\home\pricing.png" />
+    <Content Include="images\home\product1.jpg" />
+    <Content Include="images\home\product2.jpg" />
+    <Content Include="images\home\product3.jpg" />
+    <Content Include="images\home\product4.jpg" />
+    <Content Include="images\home\product5.jpg" />
+    <Content Include="images\home\product6.jpg" />
+    <Content Include="images\home\recommend1.jpg" />
+    <Content Include="images\home\recommend2.jpg" />
+    <Content Include="images\home\recommend3.jpg" />
+    <Content Include="images\home\sale.png" />
+    <Content Include="images\home\searchicon.png" />
+    <Content Include="images\home\shipping.jpg" />
+    <Content Include="images\product-details\1.jpg" />
+    <Content Include="images\product-details\new.jpg" />
+    <Content Include="images\product-details\rating.png" />
+    <Content Include="images\product-details\share.png" />
+    <Content Include="images\product-details\similar1.jpg" />
+    <Content Include="images\product-details\similar2.jpg" />
+    <Content Include="images\product-details\similar3.jpg" />
+    <Content Include="images\shop\advertisement.jpg" />
+    <Content Include="images\shop\product10.jpg" />
+    <Content Include="images\shop\product11.jpg" />
+    <Content Include="images\shop\product12.jpg" />
+    <Content Include="images\shop\product7.jpg" />
+    <Content Include="images\shop\product8.jpg" />
+    <Content Include="images\shop\product9.jpg" />
+    <Content Include="img\brown.jpg" />
+    <Content Include="img\fulljordan.jpg" />
+    <Content Include="img\girl.png" />
+    <Content Include="img\leftjordan.jpg" />
+    <Content Include="img\rightjordan.jpg" />
+    <Content Include="img\shopper.png" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\contact.js" />
+    <Content Include="js\gmaps.js" />
+    <Content Include="js\html5shiv.js" />
+    <Content Include="js\jquery.js" />
+    <Content Include="js\jquery.prettyPhoto.js" />
+    <Content Include="js\jquery.scrollUp.min.js" />
+    <Content Include="js\main.js" />
+    <Content Include="js\price-range.js" />
+    <Content Include="Web.config" />
+    <Content Include="index.aspx" />
+    <Content Include="shop.aspx" />
+    <Content Include="contact-us.aspx" />
+    <Content Include="about-us.aspx" />
+    <Content Include="product-details.aspx" />
+    <Content Include="checkout.aspx" />
+    <Content Include="login.aspx" />
+    <Content Include="cart.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ShopTheLoft.Master.cs">
+      <DependentUpon>ShopTheLoft.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShopTheLoft.Master.designer.cs">
+      <DependentUpon>ShopTheLoft.Master</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="shop.aspx.cs">
+      <DependentUpon>shop.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="shop.aspx.designer.cs">
+      <DependentUpon>shop.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contact-us.aspx.cs">
+      <DependentUpon>contact-us.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contact-us.aspx.designer.cs">
+      <DependentUpon>contact-us.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="about-us.aspx.cs">
+      <DependentUpon>about-us.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="about-us.aspx.designer.cs">
+      <DependentUpon>about-us.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="product-details.aspx.cs">
+      <DependentUpon>product-details.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="product-details.aspx.designer.cs">
+      <DependentUpon>product-details.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="checkout.aspx.cs">
+      <DependentUpon>checkout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="checkout.aspx.designer.cs">
+      <DependentUpon>checkout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cart.aspx.cs">
+      <DependentUpon>cart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cart.aspx.designer.cs">
+      <DependentUpon>cart.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ShopTheLoft.Master" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:51812/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
